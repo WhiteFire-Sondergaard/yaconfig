@@ -3,9 +3,9 @@ require File.expand_path('../lib/yaconfig/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Peter Torkelson"]
-  gem.email         = ["peter@maginatics.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["peter.torkelson@gmail.com"]
+  gem.description   = %q{Yet Another Configuration gem.}
+  gem.summary       = %q{Handles both configuration storage and loading.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,8 @@ Gem::Specification.new do |gem|
   gem.name          = "yaconfig"
   gem.require_paths = ["lib"]
   gem.version       = Yaconfig::VERSION
+
+  gem.add_dependency('symboltable', '>= 1.0.2')
+  gem.add_dependency('version', '>= 1.0.0')
+  gem.add_dependency('json', '>= 1.7.5')
 end

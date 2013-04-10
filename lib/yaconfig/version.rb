@@ -1,3 +1,6 @@
+require 'version'
+
 module Yaconfig
-  VERSION = "0.0.1"
+  is_versioned
+  #VERSION = '0.0.1'
 end

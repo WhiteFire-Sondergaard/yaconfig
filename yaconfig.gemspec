@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["peter.torkelson@gmail.com"]
   gem.description   = %q{Yet Another Configuration gem.}
   gem.summary       = %q{Handles both configuration storage and loading.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/WhiteFire-Sondergaard/yaconfig"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
